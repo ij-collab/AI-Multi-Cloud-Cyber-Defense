@@ -1,0 +1,27 @@
+[
+   {
+      "cloud": "AWS",
+      "event": "login",
+      "status": "SUCCESS",
+      "time": "10:00:00",
+      "ip": "192.0.2.10",
+      "user": "user01"
+   },
+   {
+       "cloud": "Azure",
+      "event": "login",
+      "status": "FAILED",
+      "time": "10:03:00",
+      "ip": "192.0.2.20",
+      "user": "user02"
+   },
+   {
+       "cloud": "AWS",
+      "event": "access",
+      "status": "DENIED",
+      "time": "10:05:00",
+      "ip": "192.0.2.20",
+      "user": "user02"
+
+   }
+]
